@@ -14,13 +14,16 @@ Depending on your PHP setup, this step is typically done just once, the first ti
 The compiler output is cached to speed up access on subsequent uses. If the script is modified, however, 
 the compilation step is done again.
 
-The runtime engine walks the AST and bytecode when the script is called. The symbol table is used to store the values of variables and provide the bytecode addresses for functions.
+The runtime engine walks the AST and bytecode when the script is called.
+The symbol table is used to store the values of variables and provide the bytecode addresses for functions.
 
-This process of compiling to bytecode and interpreting it at runtime is typical for languages that run on some kind of virtual runtime machine including Perl, Java, Ruby, Smalltalk, and others.
+This process of compiling to bytecode and interpreting it at runtime is typical for languages that run on some 
+kind of virtual runtime machine including Perl, Java, Ruby, Smalltalk, and others.
 ```
 2. How to disable short tags
 ```
-Short tags (example three) are available by default but can be disabled either via the short_open_tag php.ini configuration file directive, o rare disabled by default if PHP is built with the --disable-short-tags configuration.
+Short tags (example three) are available by default but can be disabled either via the short_open_tag php.ini
+configuration file directive, o rare disabled by default if PHP is built with the --disable-short-tags configuration.
 ```
 
 3. php types
@@ -50,6 +53,7 @@ To forcibly convert a variable to a certain type, either cast the variable or us
 
 4. Difference between heredoc and nowdoc syntax: 
 ```
-Nowdocs are to single-quoted strings what heredocs are to double-quoted strings. A nowdoc is specified similarly to a heredoc, but no parsing is done inside a nowdoc. 
+Nowdocs are to single-quoted strings what heredocs are to double-quoted strings. 
+A nowdoc is specified similarly to a heredoc, but no parsing is done inside a nowdoc. 
 ```
 
