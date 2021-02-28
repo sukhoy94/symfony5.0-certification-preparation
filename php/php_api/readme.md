@@ -46,8 +46,10 @@ resource
 NULL
 
 To forcibly convert a variable to a certain type, either cast the variable or use the settype() function on it.
+```
 
-
-
+4. Difference between heredoc and nowdoc syntax: 
+```
+Nowdocs are to single-quoted strings what heredocs are to double-quoted strings. A nowdoc is specified similarly to a heredoc, but no parsing is done inside a nowdoc. 
 ```
 
